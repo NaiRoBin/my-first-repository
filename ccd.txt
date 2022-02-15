@@ -1,0 +1,76 @@
+Remote Desktop 10.20.225.24:3391 ,3389,3390 (smrtd,callcenterdbd,callcenterd)
+user :005479 password: 5479Changeme
+
+	172.19.225.2	callcenterd callcenterd.g-able.com
+	172.19.225.3	callcenterdbd.g-able.com
+
+
+Remote Desktop 
+smrtd 		10.20.225.24:3391 Remote ได้ครับ
+callcenterd 	10.20.225.24:3390 Remote ไม่ได้ครับ
+callcenterdbd 	10.20.225.24:3389 Remote ไม่ได้ครับ
+
+task
+1.diable anit on smartd and callcenterd
+2.copy file rsso 9.1.04 to smartd and callcenterd
+3.up rsso to 9.1.04 on smartd
+4.up rsso  to 9.1.04 on callcenterd
+5.rsso integrate with BMC  AR System
+6.rsso integrate with BMC Remedy mid tier
+7.rsso integrate with MYIT
+8.Config SAML on azure and get xml file
+9.config SAML on RSSO import xml file and set parameter
+
+
+DNS : 172.19.225.11
+เปลี่ยนเป็น 10.20.2.99ตัว
+
+
+เมื่อวาน
+- ทำ remedy ccd rsso
+- meeting email soc spw
+- metting csi spw
+วันนี้
+- check point spw
+- อ่าน spec ansible aeon เตรียมทำ
+- check remedy ccd rsso เช้านี้ ใช้งานไม่ได้ซะงัน
+- คุยกับพี่บอย ว่าต้องเปิด firewall และ เตรียมอะไรบ้างถ้าจะ test auth
+
+
+Entity ID: RSSO_SP
+
+Reply URL: https://idodr.g-able.com/rsso/getmetadata.jsp?tenantName=*
+
+Sign on URL : https://idodr.g-able.com/rsso
+
+https://idodr.g-able.com/rsso
+RSSO_SP
+https://idodr.g-able.com/rsso
+C:/Program Files/Apache Software Foundation/Tomcat7.0_MyIT/external-conf/gable2020.jks
+123456
+idodr.g-able.com
+
+SSO Service: No Token data in header
+SSO Service: No Token data in cookie
+User is redirected for login, unauthenticated request, login url:null
+
+com.bmc.rsso.sdk.impl.SSOServiceImpl.getToken(): SSO Service: No Token data in header
+
+
+https://idodr.g-able.com:8443/arsys/servlet/ViewFormServlet?form=SRM:Survey&view=RequesterAnswer&server=callcenterd&eid=SRV000000027467
+
+
+https://idodr.g-able.com/rsso/start?bypass-auth=true&tenant=*&goto=https://idodr.g-able.com:8443/arsys
+
+
+2.2.1 account เฉพาะของระบบ Remedy (ไม่ใช่ Account Microsoft เช่น CH_xxxxxx , RemedyAdmin) >>> ให้ใช้ URL Bypass แทนครับ 
+https://idodr.g-able.com/rsso/start?bypass-auth=true&tenant=*&goto=https://idodr.g-able.com:8443/arsys
+
+3. รบกวนขอ URL ที่ใช้ในการเรียก REST สำหรับการ integrate
+Test ในเครื่อง server ด้วย postman ใช้งานได้ปกตินะครับ
+URL:https://callcenterd.g-able.com:8443/api/jwt/login
+
+
+callcenterd.g-able.com
+
+

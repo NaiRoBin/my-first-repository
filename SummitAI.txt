@@ -1,0 +1,132 @@
+Summit@2111
+Summit@123
+Day 1
+Role Template
+
+1.End Users - Done
+2.Analysts - Done
+3.Admin - Done
+
+User accounts
+Admin Accoubt - cradmin@test.com
+crnan@test.com
+crploy@test.com
+End User Account - cr_endUser1@test.com - Done
+		   cr_endUser2@test.com - Done
+Analyst Account - cr_SD@test.com - Done
+		cr_SD1@test.com - Done
+		cr_Win@test.com - Done
+		cr_DB@test.com - Done
+
+Day2
+Setup Incident Management Module:
+
+
+Onboarding process of an analysts:
+
+Step 1 user account crated in the db
+Step 2 map the user with the analyst role te
+Step 3 add the user as an analyst to a workgroup
+
+Day 3
+Incident Lifecyle Management
+Tags
+
+Customer List
+Vendor List
+Custom Tab for Customers and Users
+Form Builder to add Fields in the Custom Tabs // Incident Screen.
+
+License Availabiliy
+Escalations.
+
+Master Configuration
+Tenant Level Configuration
+Notification Templates
+Call Management
+
+Setup the Service Request Module + Wrokgroup Add on Details
+
+Business Rule Designer
+
+SLA - Priority, Service Window, Workgroup
+      P4 (Response SLA is 24 hours)
+
+
+Asset Management
+
+Step 1
+Setup the access to AM Module in Role Template
+
+Step 2
+Enable AM Module
+
+Step 3
+Creating Asset Category
+
+ALM
+Create Location, Store, &Floor
+-Configure SPOC for Location, Store, &Floor
+-Configure Subnet IP for Floor
+
+Create Separete Role Template for AM
+-Asset Analyst
+-Asset Admin
+Configure Location accsee for role template of asset analsy and asset admin
+Create Users (Asset analsy and asset admin) for asset management module
+
+
+Recap of session 2
+>asset lifecyle management
+- add asset
+  :Manually add Asset
+  :Excel Import
+  :New Discovery
+  :Integration
+
+23/11/21
+AM Module - Session 5*
+<ALM Featers - Continue from Session 4>
+>Maker-Checker
+	- Enable Maker-Check from Te
+
+<ITAM Featers>
+>Hardware Variance
+	:SAM Agent
+	:SSI 
+>Softwate Variance
+
+<Software Asset Managment>
+
+
+24/11/2021 AM Module - Session 6
+
+>Update Serial Number
+>Field Order Configuration
+>Action Attribute Configuration
+>Asset Usage Type
+
+<Software Asset Management - continue from session 5>
+>Add/update software (Software Media Library)
+>Software License Configuration
+  : Software Mapping (version Mapping)
+  : Product Mapping (Different application's Mapping for a suite)
+>Software Baseline for Variance
+ Step 1: Create Baseline Profile
+ Step 2: Profile Mapping
+>Software Blacklisting
+>Softwate Delivery
+
+<Asset add-on>
+
+หากคุณมีปัญหาในการเข้าสู่ระบบเนื่องจากเกิดเหตุขัดข้องในการเข้าถึงอุปกรณ์ Google Authenticator และมีความประสงค์จะยกเลิกการยืนยันสองขั้นตอน (2FA) ก่อนการปิดการใช้งาน 2FA ทางบริษัทขอสอบถามข้อมูลของคุณเพื่อเป็นการยืนยันตัวตนว่าคุณเป็นเจ้าของบัญชีจริง ดังนี้
+
+1. อีเมลที่ใช้สมัครกับทาง Zipmex Thailand
+2. ชื่อ-นามสกุล
+3. เบอร์โทรศัพท์ที่สมัครใช้บริการ
+4. อาชีพ
+5. รูปถ่ายเซลฟี่ถือบัตรประชาชน
+
+มาที่อีเมล Support.th@zipmex.com ได้เลย
+หมายเหตุ:
+ทางเราจะทำการตรวจสอบและดำเนินการภายใน 7 วันหลังจากได้รับเอกสารครบถ้วน
